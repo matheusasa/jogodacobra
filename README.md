@@ -1,13 +1,12 @@
-
-#Snake Game
+<h1>Snake Game</h1>
 Este é um simples jogo da cobra implementado em JavaScript, usando HTML5 Canvas para renderização. O jogo tem uma tela de jogo, onde uma cobra se move pela tela, coletando comida para aumentar seu comprimento e pontuação. O jogo termina se a cobra colidir com as bordas da tela ou consigo mesma.
 
-#Como Jogar
+<h1>Como Jogar</h1>
 Use as teclas de seta para cima, baixo, esquerda e direita para controlar a direção da cobra.
 A cobra cresce quando come a comida (quadrado vermelho).
 O jogo termina se a cobra colidir com as bordas da tela ou consigo mesma.
 Tente obter a pontuação máxima!
-Estrutura do Código
+<h1>Estrutura do Código</h1>
 O código está organizado em várias funções para facilitar a compreensão:
 
 initializeGame(): Configura o estado inicial do jogo, incluindo a posição inicial da cobra, comida e direção.
@@ -18,8 +17,8 @@ DrawGrid(): Desenha uma grade na tela para uma melhor visualização do espaço.
 draw(): Limpa o canvas e desenha a cobra, comida e grade.
 gameOver(): Lida com o estado de Game Over, pausando o jogo e exibindo a tela de fim de jogo.
 gameWin(): Lida com o estado de Vitória, exibindo uma mensagem de parabéns.
-#Pontuação e Recorde
+<h1>Pontuação e Recorde</h1>
 A pontuação atual é exibida na tela, e o recorde máximo é salvo localmente.
 O jogo verifica se o jogador atingiu uma pontuação mais alta do que o recorde atual.
-#Reiniciando o Jogo
+<h1>Reiniciando o Jogo</h1>
 O botão de reinício na tela de Game Over permite reiniciar o jogo após uma derrota.
